@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'PromiseKitSandbox' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PromiseKitSandbox
+  pod "PromiseKit", "~> 6.8"
+
+  target 'PromiseKitSandboxTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'PromiseKitSandboxUITests' do
+    # Pods for testing
+  end
+
+end
